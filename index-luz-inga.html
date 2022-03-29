@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>Exercicio</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<!-- Font Awesome -->
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+		integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+
+	<style type="text/css">
+		#home {
+			background: #ffc107;
+			color: white;
+			height: 400px;
+		}
+
+		.caixa {
+			padding: 60px 0;
+			border-bottom: 1px solid #e5e5e5;
+		}
+
+
+		.hm div {
+			display: none;
+			position: relative
+		}
+
+		.hm:hover div {
+			display: block;
+			position: absolute;
+			top: 0;
+			margin-left: 40px
+		}
+
+		/* estética*/
+		.hm {
+			width: 1.5em;
+			height: 1.5em;
+			text-align: center;
+			font: 10px/1.5em "segoe ui", arial, helvetica, sans-serif;
+			border: 1px solid rgb(0, 0, 0);
+			border-radius: 50%;
+			color: rgb(0, 0, 0);
+		}
+
+		.hm div {
+			width: 10em;
+			color: rgb(0, 0, 0);
+			background: rgb(185, 184, 184);
+			border-radius: 5px;
+			padding: 5px;
+		}
+
+		#final {
+			background: #ffc107;
+			color: white;
+			height: 300px;
+		}
+
+
+
+		/******************************************/
+		/*(menor que 576px)*/
+		@media (max-width: 575.98px) {
+			#home {
+				background: #ffc107;
+				color: white;
+				height: 300px;
+			}
+
+			#final {
+				background: #ffc107;
+				color: white;
+				height: 400px;
+			}
+
+			#confirm {
+				margin-top: 10px;
+			}
+
+			#Sobre {
+				font-size: 1em;
+				margin: 30px;
+			}
+
+			#sobreText {
+				font-size: 0.8em;
+				margin: 30px;
+			}
+
+		}
+	</style>
+
+
+
+
+</head>
+
+<body>
+	<header>
+
+		<nav class="navbar navbar-expand-sm bg-light navbar-light">
+
+			<div class="container my-2">
+				<a href="" class="navbar-brand ">
+					Luz Ingá
+				</a>
+
+				<button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="nav-principal">
+					<ul class="navbar-nav ml-auto ">
+						<li class="nav-item">
+							<a class="nav-link" href="">Sobre Nós</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="">Produtos</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="">Fique por dentro</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+
+
+		</nav>
+
+	</header>
+
+	<section id="home">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-12 d-flex  justify-center">
+					<div class="align-self-center ">
+						<h1 class="display-9 text-center m-lg-5 m-sm-5" id="Sobre">Luz Ingá, aqui você encontra os
+							melhores produtos para a decoração!</h1>
+
+						<p class="m-lg-5 text-justify" id="sobreText">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. In blandit dolor faucibus ultrices
+							hendrerit. Ut a nibh id sem semper hendrerit. Suspendisse ultrices, ex id posuere
+							sollicitudin, leo eros luctus metus, non suscipit nibh massa vestibulum urna. Nulla sed ex
+							volutpat, euismod libero in, dictum ante. Ut pellentesque malesuada sodales. Aliquam
+							tincidunt at quam eget pharetra. Mauris pharetra metus sit amet ornare rhoncus. Etiam eu
+							consequat tellus. Phasellus tristique tristique felis nec auctor.
+						</p>
+					</div>
+
+				</div>
+
+
+			</div>
+
+		</div>
+	</section>
+
+	<section class="caixa">
+		<div class="container">
+			<div class="col-sm-12 text-dark text-center mt-3 mb-5">
+				<h1 class="">Produtos</h1>
+			</div>
+			<table class="table table-hover">
+				<thead>
+					<tr>
+						<th scope="col">Produto</th>
+						<th scope="col">Descrição</th>
+						<th scope="col">Preço</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Papel decorativo</td>
+						<td>Lorem ipsum dolor sit amet</td>
+						<td>R$ 20,00</td>
+					</tr>
+					<tr>
+						<td>Balões de festa</td>
+						<td>Lorem ipsum dolor sit amet</td>
+						<td>R$ 30,00</td>
+					</tr>
+					<tr>
+						<td>Mesa decorada</td>
+						<td>Lorem ipsum dolor sit amet</td>
+						<td>R$ 40,00</td>
+					</tr>
+				</tbody>
+			</table>
+
+		</div>
+	</section>
+
+	<section class="caixa">
+		<div class="container">
+			<div class="row">
+
+			</div>
+
+			<div class="row">
+				<div class="col-sm-4 mb-1">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title text-dark">Papel decorativo</h5>
+							<p class="card-text text-dark">Lorem ipsum dolor sit amet </p>
+							<a href="#" class="btn btn-primary">R$ 20,00
+								<i class="fa fa-tag ml-1" aria-hidden="true"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 mb-1">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title text-dark">Balões de festa </h5>
+							<p class="card-text text-dark">Lorem ipsum dolor sit amet.</p>
+							<a href="#" class="btn btn-primary ">R$ 30,00
+								<i class="fa fa-tag ml-1" aria-hidden="true"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 ">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title text-dark">Mesa decorada</h5>
+							<p class="card-text text-dark">Lorem ipsum dolor sit amet.</p>
+							<a href="#" class="btn btn-primary justify-center">R$ 40,00
+								<i class="fa fa-tag ml-1" aria-hidden="true"></i>
+
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+
+	<section class="caixa" id="final">
+		<div class="container">
+			<div class="col-sm-12 text-dark text-center mt-lg-3 mb-lg-5 my-sm-1">
+				<h1 class="">Fique por dentro das novidades.</h1>
+			</div>
+
+			<div class="row justify-content-center">
+				<div class="col-md-8 d-flex ">
+					<form class="form-inline m-2">
+						<div class="form-group mx-sm-3">
+							<label for="inputemail" class="sr-only">Email</label>
+							<input type="email" class="form-control" id="inputemail" placeholder="Email">
+						</div>
+
+						<div class="form-check mr-2">
+							<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+							<label class="form-check-label" for="defaultCheck1">
+								Aceito receber as novidades.
+							</label>
+						</div>
+
+						<button type="submit" class="btn btn-primary" id="confirm">Receber novidades</button>
+						<div class="hm ml-2 ">?<div>Marque a opção de "Aceito..." para que o botão fique disponivel.
+							</div>
+						</div>
+
+					</form>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<script>
+		let btnConfirmar = document.getElementById('confirm');
+		btnConfirmar.disabled = true;
+		let checkbox = document.getElementById('defaultCheck1');
+		checkbox.addEventListener('click', showBtn)
+		btnConfirmar.addEventListener('click', aceitoNotificacoes)
+
+		function showBtn() {
+			btnConfirmar.disabled = false;
+			checkbox.disabled = true;
+		}
+
+		function aceitoNotificacoes() {
+			alert('Fique atento ao seu e-mail, a partir de agora você receberá as novidades da loja! 😎')
+		}
+	</script>
+
+
+	<!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+		integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+		integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+	</script>
+</body>
+
+</html>
